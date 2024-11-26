@@ -42,13 +42,13 @@
                                     <div class="page-header card">
                                         <div class="card-block">
                                             
-                                            <h5 class="m-b-10">Schedule List</h5>
+                                            <h5 class="m-b-10">Work Shifts List</h5>
                                             <!-- <p class="text-muted m-b-10">lorem ipsum dolor sit amet, consectetur adipisicing elit</p> -->
                                             <ul class="breadcrumb-title b-t-default p-t-10">
                                                 <li class="breadcrumb-item">
                                                     <a href="<?php echo base_url(); ?>masterfile/dashboard"> <i class="fa fa-home"></i> </a>
                                                 </li>
-                                               <li class="breadcrumb-item"><a href="#!">Schedule List</a></li>
+                                               <li class="breadcrumb-item"><a href="#!"> Work Shifts</a></li>
                                                         <!-- <li class="breadcrumb-item"><a href="#!">Bootstrap Basic Tables</a>
                                                         </li> -->
                                             </ul>
@@ -79,8 +79,8 @@
                                                 <table class="table" id="myTable">
                                                     <thead>
                                                         <tr>
-                                                            <th>Employee Number</th>
                                                             <th>Employee Name</th>
+                                                            <th>Employee Number</th>
                                                             <th>Time In</th>
                                                             <th>Time Out</th>
                                                             <th width="10%" class="text-center"><span class="fa fa-list"></span></th>

@@ -9,7 +9,7 @@
                 <form method = "POST" action="<?php echo base_url();?>employees/insert_employee" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-md-6">
-                        <label for="" class="control-label mb-1">Biometric No.:</label>
+                        <label for="" class="control-label mb-1"> ID:</label>
                         <input id="" name="bio_num" type="text" class="form-control bor-radius5" placeholder="" required>
                         <label for="" class="control-label mb-1">Firstname:</label>
                         <input id="" name="fname" type="text" class="form-control bor-radius5" placeholder="" required>
@@ -161,7 +161,7 @@
                                                 <table class="table" id="myTable">
                                                     <thead>
                                                         <tr>
-                                                            <th>Biometric No.</th>
+                                                            <th>ID</th>
                                                             <th>Photo</th>
                                                             <th>Name</th>
                                                             <th>Position</th>
@@ -184,7 +184,7 @@
                                                             <td><?php echo $e['firstname']." ".$e['lastname'];?></td>
                                                             <td><?php echo $e['position'];?></td>
                                                             <td><?php echo $e['schedule'];?></td>
-                                                            <td><?php echo "<b>SSS:</b>".$e['sss_amount']."<br><b>Pag-Ibig: </b>".$e['pagibig_amount'].'<br><b>PhilHealth: </b>'.$e['philhealth_amount'];?></td>
+                                                            <td><?php echo "<b>Social Security:</b>".$e['sss_amount']."<br><b>Pag-Ibig: </b>".$e['pagibig_amount'].'<br><b>Health: </b>'.$e['philhealth_amount'];?></td>
                                                             <td><?php echo date('M d, Y', strtotime($e['created_on'])); ?></td>
                                                             <td>
                                                                 <div class="btn-group " role="group" data-toggle="tooltip" data-placement="top" title="">
