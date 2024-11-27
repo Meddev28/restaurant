@@ -73,7 +73,7 @@
                                                             <td><?php echo $p['fullname'];?></td>
                                                             <td><?php echo $p['employee_number'];?></td>
                                                             <td><?php echo number_format($p['gross'],2);?></td>
-                                                            <td><?php echo "<b>Cash Advance:</b> ".number_format($p['cashadvance'], 2)."<br> <b>Pag-Ibig:</b> ".number_format($p['pagibig_amount'], 2)."<br> <b>SSS:</b> ".number_format($p['sss_amount'], 2)."<br> <b>PhilHealth:</b> ".number_format($p['philhealth_amount'], 2)."<br> <b>Total Deduction: <u>".number_format($p['total_deduction'], 2)."</b></u>"?>
+                                                            <td><?php echo "<b>Cash Advance:</b> ".number_format($p['cashadvance'], 2)."<br> <b>Pag-Ibig:</b> ".number_format($p['pagibig_amount'], 2)."<br> <b>SSS:</b> ".number_format($p['sss_amount'], 2)."<br> <b>Health:</b> ".number_format($p['philhealth_amount'], 2)."<br> <b>Total Deduction: <u>".number_format($p['total_deduction'], 2)."</b></u>"?>
                                                             </td>
                                                             <td><?php echo number_format($p['cashadvance'], 2);?></td>
                                                             <td><?php echo number_format($p['net'], 2);?></td>

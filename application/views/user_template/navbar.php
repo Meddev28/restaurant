@@ -13,7 +13,7 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="<?php echo base_url(); ?>users/hut_reserve">
                         <span>
-                            <h3 style="font-family:Monotype Corsiva;">CIANOS SGB</h3>
+                            <h3 style="font-family:Monotype Corsiva;">Restaurant</h3>
                      	</span> 
                  	</a>
                 </div>

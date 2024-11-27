@@ -17,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="">
-    <title>CIANOS SGB</title>
+    <title>Restaurant</title>
     <link href="<?php echo base_url(); ?>assets/node_modules/morrisjs/morris.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/node_modules/c3-master/c3.min.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/dist/css/style.css" rel="stylesheet">

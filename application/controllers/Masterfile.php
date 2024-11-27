@@ -962,7 +962,7 @@ class Masterfile extends CI_Controller {
                 $cashadvance = $ca->cashamount;
                 $total_deduction = $cashadvance + $cust->sss_amount + $cust->pagibig_amount + $cust->philhealth_amount; 
                 $content .= '
-                <h2 align="center">Cianos Seafood Grill and Bar</h2>
+                <h2 align="center">cianos Seafood Grill and Bar</h2>
                 <h4 align="center">'.$from_title." - ".$to_title.'</h4>
                 <table border="1" cellspacing="0" cellpadding="3">  
                 <tr>  
@@ -1043,7 +1043,7 @@ class Masterfile extends CI_Controller {
                 <br><br><hr>
                 ';
                 /*$contents .= '
-                <h2 align="center">Cianos Seafood Grill and Bar</h2>
+                <h2 align="center">cianos Seafood Grill and Bar</h2>
                 <h4 align="center">'.$from_title." - ".$to_title.'</h4>
                 <table cellspacing="0" cellpadding="3">  
                     <tr>  
@@ -1214,7 +1214,7 @@ class Masterfile extends CI_Controller {
             $pdf->SetFont('helvetica', '', 11);  
             $pdf->AddPage(); 
             $content .= '
-            <h2 align="center">Cianos Seafood Grill and Bar</h2>
+            <h2 align="center">cianos Seafood Grill and Bar</h2>
             <h4 align="center">Employee Schedule</h4>
             <table border="1" cellspacing="0" cellpadding="3">  
            <tr>  
@@ -1315,7 +1315,7 @@ class Masterfile extends CI_Controller {
             $pdf->SetFont('helvetica', '', 9);  
             $pdf->AddPage(); 
             $content .= '
-            <h2 align="center">Cianos Seafood Grill and Bar</h2>
+            <h2 align="center">cianos Seafood Grill and Bar</h2>
             <h4 align="center">Reservations Report</h4>
             <table border="1" cellspacing="0" cellpadding="3">  
             <tr>  

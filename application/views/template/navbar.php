@@ -17,7 +17,7 @@
            </div>
            <a href="<?php echo base_url(); ?>masterfile/dashboard">
                <img  class="img-fluid" src="<?php echo base_url(); ?>assets_user/images/logoResto.png" alt="Theme-Logo" style="margin-left: -10px; margin-top: 10px; width:200px;" />
-               <!-- <h4 style="text-align:center">CIANOS SGB</h4> -->
+               <!-- <h4 style="text-align:center">cianos SGB</h4> -->
            </a>
            <a class="mobile-options">
                <i class="ti-more"></i>
